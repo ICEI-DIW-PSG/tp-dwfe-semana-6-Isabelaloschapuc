@@ -10,18 +10,26 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Isabela Loscha Rajão Silva
+- Matricula: 915156
+- Proposta de projeto escolhida: Site de livros com recomendações, destaques e personalizado de acordo com o usuário.
+- Breve descrição sobre seu projeto:  Plataforma simples e fácil de acessar que ajude o leitor a achar sua próxima leitura, com a personalização do site e o acesso da sua biblioteca de leitura.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
-
-<<  COLOQUE A IMAGEM AQUI >>
-
+![Tela1-Desktop](images/tela1-desktop.png)
+![Tela2-Desktop](images/tela2-desktop.png)
+![Tela3-Desktop](images/tela3-desktop.png)
+![Tela4-Desktop](images/tela4-desktop.png)
+![Tela5-Desktop](images/tela5-desktop.png)
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
-
-<<  COLOQUE A IMAGEM AQUI >>
+![Tela1-Mobile](images/tela1-mobile.png)
+![Tela2-Mobile](images/tela2-mobile.png)
+![Tela3-Mobile](images/tela3-mobile.png)
+![Tela4-Mobile](images/tela4-mobile.png)
+![Tela5-Mobile](images/tela5-mobile.png)
+![Tela6-Mobile](images/tela6-mobile.png)
+![Tela7-Mobile](images/tela7-mobile.png)
+![Tela8-Mobile](images/tela8-mobile.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
