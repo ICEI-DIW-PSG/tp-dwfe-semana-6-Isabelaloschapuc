@@ -6,157 +6,217 @@
     <title>LivrosNet</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="images/faviconlivro.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <menu>
-            <img src="images/logo de livro.png" alt="logo da site" id="logo"> 
+<body style="background-color: #2f4156;">
+  <nav class="cabeca">
+    
+      <nav class="navbar navbar-expand-lg bg-body-tertiary py-0" >
+    <div class="container-fluid">
+      <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logolivrosnet.png" alt="Logo" width="180" height="120" class="d-inline-block align-text-top">
+      </a>
+    </div>
+    </nav>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <form class="d-flex mx-auto" role="search" style="padding-bottom: 10px;">
+          <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+        <ul class="navbar-nav  mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="margin-left:250px ;">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Livros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Personalizar</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Filtros</a>
+          </li>
+        </ul>
+        <div class="bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+    <a href="#"><i class="bi bi-person" style="font-size: 30px;"></i>Perfil</a>
+    </div>
+      </div>
+    </div>
+    </nav>
+  </nav>
+<nav class="trecho">
+  <div>
+       <b>
+         <pre>
+    <h1 class="fw-bold fs-0">"Os livros são espelhos:
+         neles só se vê o que possuímos por dentro"
+         -Carlos Ruiz Zafón
+                A sombra do vento (2001)
+                    </h1>
+          </pre>
+       </b>
+  <div class="d-flex justify-content-center my-4" >
+    <button type="button" class="btn btn-primary btn-lg botao-costum"  style="background-color: #607184; border: 1px solid black;">Ver livros</button>
+  </div>
+  </div>
+</nav>
 
-            <div id="busca">
-                <input type="search" name="busca" id="ibusca"> <label for="ibusca"><input type="submit" value="Buscar"></label>
-            </div>
+<div class="container bg-white p-5 " style="max-width:90% ;">
+    <h1 class="text-center" style="padding-bottom: 20px; color: #2f4156; font-size: 50px;">Destaques da semana</h1>
+    <div class="bg-secondary text-white rounded p-4">
+      <div class="container my-5">
+        <div class="row flex-nowrap overflow-auto">
+      <div class="row g-4 justify-content-center ">
+    <div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="images/ahipótesedoamor.webp" class="img-fluid rounded" style="width: 100%; height: 260px; object-fit: cover;">
+      <a href="#" style="text-decoration: none; color: white;">A hipótese do amor</a>
+      <p>Ali Hazelwood</p>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="images/amanhecernacolheita.png" class="img-fluid rounded" style="width: 100%; height: 260px; object-fit: cover;">
+      <a href="#" style="text-decoration: none; color: white;">Amanhecer na colheita</a>
+      <p>Suzane Collins</p>
+    </div>
+<div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="images/harrypotter.png" class="img-fluid rounded" style="width: 100%; height: 260px; object-fit: cover;">
+      <a href="#" style="text-decoration: none; color: white;">Harry Potter e a pedra filosofal</a>
+    </div>
+<div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="images/jantarsecreto.jpg" class="img-fluid rounded" style="width: 100%; height: 260px; object-fit: cover;">
+      <a href="#" style="text-decoration: none; color: white;">Jantar secreto</a>
+    </div>
+<div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="images/verity.webp" class="img-fluid rounded" style="width: 100%; height: 260px; object-fit: cover;">
+      <a href="#" style="text-decoration: none; color: white;">Verity</a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="images/quartaasa.webp" class="img-fluid rounded" style="width: 100%; height: 260px; object-fit: cover;">
+      <a href="#" style="text-decoration: none; color: white;">Quarta Asa</a>
+    </div>
+    </div>
+      </div>
+    </div>      
+</div>
+ <h1 class="text-center mp-2"  style="padding-bottom: 20px; color: #2f4156; font-size: 50px;">Categorias</h1>
+ <button type="button" class="btn p-1" >Romance</button>
+ <button type="button" class="btn p-1 ">Terror</button>
+ <button type="button" class="btn p-1 ">Fantasia</button>
+ <button type="button" class="btn p-1 ">Suspense</button>
+ <button type="button" class="btn p-1 ">Ver mais</button>
+ <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/romance.png" class="d-block w-100" alt="Romance">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Romance</h2>
+        <a href="#">Veja mais</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/terror.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Terror</h2>
+        <a href="#">Veja mais</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/fantasia.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Fantasia</h2>
+        <a href="#">Veja mais</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-            <a href="#" class="menu">Início</a>
-            <a href="#" class="menu">Livros</a>
-            <a href="#" class="menu">Categorias</a>
-            <a href="#" class="menu">Personalizar</a>
-            <a href="#" class="menu">Filtros</a>
-
-            <nav class="perfil">
-                <img src="images/iconedeperfil.png" alt="logo de perfil">
-                <a href="#">Perfil</a>
-            </nav>
-
-        </menu>
-
-        <nav class="trecho">
-
-            <pre>
-                <h1>"Os livros são espelhos:
-     neles só se vê o que possuímos por dentro"
-     -Carlos Ruiz Zafón
-            A sombra do vento (2001)
-                </h1>
-                
-            </pre>
-             <a href="#">Ver livros</a>
-        </nav>
-
-    </header>
-
-    <main>
-        <section>
-            <h2>Destaques da semana</h2>
-
-            <article class="destaque">
-                
-                
-                    <pre>
-                    <p><img src="images/ahipótesedoamor.webp" alt="a hipotese do amor" id="hipotese">
-                        
-<a href="#">A hipótese do amor</a>
-Ali hazelwood</p>
-                    </pre>
-                    <pre>
-                    <p><img src="images/amanhecernacolheita.png" alt="amanhecer na colheita" id="amanhecer">
-                        
-<a href="#">Amanhecer na colheita</a>
-Suzane Colins</p>
-                    </pre>
-                
-                
-
-                
-                    <pre>
-                    <p><img src="images/harrypotter.png" alt="harry potter" id="hp">
-                    
-<a href="#">Harry Potter e a pedra filosofal</a>
-Jk Rowling</p>
-                    </pre>
-                    <pre>
-                    <p><img src="images/jantarsecreto.jpg" alt="jantar secreto" id="jantar">
-                    
-<a href="#">Jantar secreto</a>
- Raphael Montes</p>
-                    </pre>
-                    <pre>
-                    <p><img src="images/verity.webp" alt="verity" id="verity">
-                    
-<a href="#">Verity</a>
-Collen Hoover</p>
-                    </pre>
-                    <a href="#" id="seta">&rarr;</a>
-                
-            </article>
-
-        </section>
-
-        <section>
-            <h2>Categorias</h2>
-
-            <article class="categoria">
-                <a href="#">Romance</a>
-                <a href="#">Terror</a>
-                <a href="#">Fantasia</a>
-                <a href="#">Ficção</a>
-                <a href="#" id="seta2">&rarr;</a>
-            </article>
-
-        </section>
-               <h2>Recomendações</h2>
-        <section class="recomendacao">
-            <article class="card">
-                <img src="images/quartaasa.webp" alt="Quarta Asa" id="quarta">
-                <a href="#">Quarta Asa</a>
-                <p>                
-                    Violet Sorrengail, uma jovem de vinte anos, estava destinada a entrar na Divisão dos Escribas, 
+<h1  class="text-center mp-2 p-4"  style="padding-bottom: 20px; color: #2f4156; font-size: 50px;">Recomendações</h1>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/quartaasa.webp" class="card-img-top" alt="quarta asa" style="width: 100%; height: 650px; object-fit: cover;">
+      <div class="card-body">
+        <h5 class="card-title">Quarta Asa</h5>
+        <p class="card-text">Violet Sorrengail, uma jovem de vinte anos, estava destinada a entrar na Divisão dos Escribas, 
                     levando uma vida relativamente tranquila entre os livros e as aulas de História. No entanto, 
                     a general comandante das forças de Navarre – também conhecida como sua mãe –, durona como as 
                     garras de um dragão, ordena que Violet se junte às centenas de candidatos que buscam se tornar
                     a elite de seu país: cavaleiros de dragões.</p>
-                &#x2B50; &#x2B50; &#x2B50; &#x2B50; &#x2B50; <br>
-                <a href="#">Ver livro</a>
-            </article>
-            <article class="card">
-                <img src="images/É assim que acaba.png" alt="É assim que acaba" id="éassim">
-                <a href="#">É assim que acaba</a> 
-                <p>
+                    <p> &#x2B50; &#x2B50; &#x2B50; &#x2B50; &#x2B50;</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary"><a href="#" style="text-decoration: none; color: #2f4156;">Ver Livro</a></small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/É assim que acaba.png" class="card-img-top" alt="é assim que acaba" style="width: 100%; height: 650px; object-fit: cover;">
+      <div class="card-body">
+        <h5 class="card-title">É assim que acaba</h5>
+        <p class="card-text">
                     Em É assim que acaba , Colleen Hoover nos apresenta Lily, uma jovem que se mudou de uma cidadezinha do Maine para Boston, 
                     se formou em marketing e abriu a própria floricultura. E é em um dos terraços de Boston que ela conhece Ryle, 
                     um neurocirurgião confiante, teimoso e talvez até um pouco arrogante, com uma grande aversão a relacionamentos, mas que se sente muito atraído por ela.
                 </p>
-                <br>
-                &#x2B50;
-                &#x2B50;
-                &#x2B50;
-                &#x2B50;
-                &#x2B50;
-                <br>
-                 <a href="#">Ver livro</a>
-            </article>
-            <article class="card">
-                <img src="images/percyjackson.png" alt="Percy Jackson" id="percy">
-                <a href="#">Percy Jackson e os olimpianos: Ladrão de raios</a> 
-                <p>
+                <p>&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary"><a href="#" style="text-decoration: none; color: #2f4156;">Ver livro</a></small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/percyjackson.png" class="card-img-top" alt="percy jackson" style="width: 100%; height: 650px; object-fit: cover;" >
+      <div class="card-body">
+        <h5 class="card-title">Percy Jackson e o ladrão de raios</h5>
+        <p class="card-text">
                     O autor conjuga lendas da mitologia grega com aventuras no século XXI. Nelas, os deuses do Olimpo continuam vivos, 
                     ainda se apaixonam por mortais e geram filhos metade deuses, metade humanos, como os heróis da Grécia antiga. Marcados pelo destino,
                      eles dificilmente passam da adolescência. Poucos conseguem descobrir sua identidade.
                 </p>
-                <br>
+        <p>
                 &#x2B50;
                 &#x2B50;
                 &#x2B50;
                 &#x2B50;
                 &#x2B50;
-                <br>
-                 <a href="#">Ver livro</a>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <a href="#" class="contato">Contato</a>
-        <a href="#" class="site">Sobre o site</a>
-        <div id="footer"><input type="search" name="inscreva" id="iinscreva" class="especi"> <label for="iinscreva"><input type="submit" value="Inscreva-se"></label></div>
-    </footer>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary"><a href="#" style="text-decoration: none; color: #2f4156;">Ver livro</a></small>
+      </div>
+    </div>
+  </div>
+</div>
+</div >
+  <button type="button" class="btn p-1 bg-white" >Contato</button>
+  <button type="button" class="btn p-1 bg-white" >Sobre o site</button>
+  </div>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>   
 </body>
 </html>
